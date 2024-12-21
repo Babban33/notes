@@ -3,11 +3,11 @@ import { Key, ShieldCheck, Smile } from "lucide-react";
 
 export default function HeroSection() {
     return(
-        <div className="text-center h-screen flex flex-col justify-center">
-            <h1 className="text-5xl md:text-8xl font-bold tracking-tight mb-6">
+        <div className="text-center h-screen flex flex-col justify-center items-center">
+            <h1 className="text-5xl md:text-8xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
                 Simplify Your Notes
             </h1>
-            <p className="text-lg mb-8">
+            <p className="text-lg text-center mb-8 max-w-2xl text-muted-foreground">
                 Organize, access, and manage your notes from anywhere, anytime.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
